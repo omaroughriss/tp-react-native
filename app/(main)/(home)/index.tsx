@@ -16,6 +16,10 @@ import { Link, useRouter } from 'expo-router';
 import { useFocusEffect } from '@react-navigation/native';
 import { useCallback } from 'react';
 
+export const unstable_settings = {
+    headerShown: false,
+};
+
 export default function MealListScreen() {
     const { user } = useUser();
     const router = useRouter();
